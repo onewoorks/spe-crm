@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { createStore } from 'redux'
+import {Provider} from 'react-redux'
+
+// const createStore = redux.createStore
+// const initState = {
+//     totalOrder: 0
+// }
+// const rootReducer = (state = initState, action) => {
+//     return state
+// }
+// const storeRedux = createStore(rootReducer)
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
